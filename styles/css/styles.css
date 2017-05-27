@@ -1,0 +1,123 @@
+.blocke {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background: white;
+  top: 0;
+  left: 0;
+  //margin-left: -15px;
+}
+
+.iconito {
+  font-size: 80px;
+  color: #A35CCC; }
+
+.alineados {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+ul li {
+  display: inline-block;
+  font-family: Droid Sans Mono, monospace;
+  font-size: 12px;
+  color: #a866ee;
+  padding-right: 15px; }
+
+.typo{
+  font-family: Droid Sans Mono, monospace;
+  font-size: 16px;
+  color: #a866ee;
+  padding-right: 15px; }
+
+
+/*------ANIMACION-------*/
+
+.animacion {
+  margin-top: 130px;
+}
+
+h1 {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 28px;
+  color: #A35CCC;
+  display: flex;
+  justify-content: center;
+}
+
+h1:hover {
+    font-size: 42px;
+    color: #e8308c;
+    transition: width 2s;
+}
+
+h1:hover:before {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+h1:before{
+  content: "";
+  display: block;
+  background: #89f5e9;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.2s linear all;
+  z-index: -1;
+}
+
+label{
+  font-family: Droid Sans Mono, monospace;
+  font-size: 16px;
+  color: #A35CCC;
+}
+
+button{
+  color: white;
+  background-color: #A35CCC
+}
+
+h1:after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    font-family: "Ionicons";
+    color: white;
+    overflow: hidden;
+    width: 0;
+    height: 100px;
+    transition: 0.2s linear all;
+    transition: width 1s;
+}
+
+.contenedor{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, rgba(0,100,90,0.3), rgba(242,230,255,0.5));
+  margin-top:80px;
+  margin-bottom: 100px;
+}
+
+.contenedor2{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top:80px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 28px;
+  color: #A35CCC;
+  display: flex;
+  justify-content: center;
+}
